@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5;url=landing.html">
+    <title>Redirecting...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        #countdown {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        #image-container {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="image-container">
+        <img src="under construction.png" alt="Image" width="300">
+    </div>
+    
+    <h1>Please wait . . .</h1>
+    <p>You will be redirected in <span id="countdown">5</span> seconds...</p>
+    
+    <script>
+        // Countdown function
+        function countdown() {
+            var countdownElement = document.getElementById('countdown');
+            var count = 5;
+            setInterval(function() {
+                count--;
+                if (count >= 0) {
+                    countdownElement.innerText = count.toString();
+                } else {
+                    clearInterval(countdown);
+                    window.location.href = 'landing.html'; // Redirect URL
+                }
+            }, 1000);
+        }
+        
+        // Start the countdown when the page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            countdown();
+        });
+    </script>
+</body>
+</html>

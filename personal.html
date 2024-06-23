@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            position: relative; /* Ensure the body is positioned relative */
+        }
+        .rectangular-pic {
+            width: 100%; /* Adjust the width as needed */
+            height: 400px; /* Adjust the height as needed */
+            position: absolute;
+            top: -255px; /* Align at the top of the body */
+            left: 0; /* Align at the left of the body */
+            z-index: -1; /* Position behind other content */
+            opacity: 0.4; /* Set the transparency */
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #00;
+            border: 1px solid #F0F2F5;
+            border-radius: 1px;
+            position: relative; /* Ensure the container is positioned relative */
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid #F0F2F5;
+            margin-right: 20px; /* Space between profile picture and buttons */
+        }
+        .nav {
+            display: flex;
+        }
+        .nav a {
+            margin-right: 15px;
+            padding: 15px 20px;
+            text-decoration: none;
+            color: #333;
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+        .nav a:hover {
+            background-color: #ccc;
+        }
+        .post {
+            border: 1px solid #F0F2F5	;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 1px;
+        }
+        .card {
+            width: 1100px; /* Adjust width as needed */
+            height: 551px; /* Adjust height as needed */
+            overflow-y: auto; /* Enable vertical scrollbar if content exceeds height */
+            border: 1px solid #F0F2F5;
+            padding: 10px;
+            margin: 20px;
+            background-color: #0000;
+        }
+        .card1 {
+            width: 300px; /* Adjust width as needed */
+            height: 551px; /* Adjust height as needed */
+            overflow-y: auto; /* Enable vertical scrollbar if content exceeds height */
+            border: 1px solid #F0F2F5;
+            padding: 10px;
+            margin: 20px;
+            background-color: #0000;
+        }
+        .spacer-vertical {
+            height: 5px; /* Adjust the height to create more or less space */
+        }
+        .scaled-img {
+            max-width: 600px; /* Maximum width */
+            max-height: 800px; /* Maximum height */
+            width: auto;
+            height: auto;
+        }
+        .rounded-img {
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <img src="44475016_1487520784724894_7275163455366103040_n.jpg" alt="Background Picture" class="rectangular-pic">
+    <div class="container">
+        <img src="SIBONGA_JOHN VINCENT_BSECE.jpg" alt="Profile Picture" class="profile-pic">
+        <div class="nav">
+            <a href="landing.html">Home</a>
+            <a href="professional.html">Professional</a>
+            <a href="personal.html">Personal</a>
+            <a href="contact.html">Contacts</a>
+        </div>
+    </div>
+</body>
+<body>
+    <table width="1600" cellspacing="1" cellpadding="0" border="0">
+        <tr>
+            <td width="20%" style="background-color: #F0F2F5; padding: 0px; border: 1px solid #F0F2F5; border-radius: 1px;">
+                <!-- Post 1 -->
+                <div class="post">
+                <div class="card1" style="background-color: #FFFFFF; width: 350px; height: 500px; border-radius: 10px;">
+                <h2>Intro</h2>
+                <p style="line-height: 1; font-size: 18px">ECE Para sa Bayan</p>
+                <div class="spacer-vertical"></div>
+                <p style="line-height: 1; font-size: 12px">💼 Jr Design Engineer sa <b>Denso Techno Philippines</b></p>
+                <div class="spacer-vertical"></div>
+                <p style="line-height: 1; font-size: 12px">🎓 Nag-aral sa <b>Polytechnic University of the Philippines</b></p>
+                <div class="spacer-vertical"></div>
+                <p style="line-height: 1; font-size: 12px">📍 Mula sa <b>San Miguel, Bulacan</b></p>
+                </div>
+            </td>
+
+            <td width="80%" style="background-color: #F0F2F5; padding: 0px 0px 0px 0px; border: 1px solid #F0F2F5; border-radius: 1px;">
+                <div class="card">
+                <!-- Post 1 -->
+                <div class="post">
+                <img src="Presentation4.gif" alt="Description of the image" style="border-radius: 10px;">
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <img src="Presentation5.gif" alt="Description of the image" style="border-radius: 10px;">
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <img src="John Vincent Sibonga (1).png" alt="Description of the image" class="rounded-img; scaled-img" style="border-radius: 10px;">
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <img src="John Vincent Sibonga (2).png" alt="Description of the image" class="rounded-img; scaled-img" style="border-radius: 10px;">
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <img src="John Vincent Sibonga (3).png" alt="Description of the image" class="rounded-img; scaled-img" style="border-radius: 10px;">
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <img src="John Vincent Sibonga (4).png" alt="Description of the image" class="rounded-img; scaled-img" style="border-radius: 10px;">
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <img src="Presentation1.gif" alt="Description of the image" style="border-radius: 10px;">
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <img src="Presentation2.gif" alt="Description of the image" style="border-radius: 10px;">
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <img src="Presentation3.gif" alt="Description of the image" style="border-radius: 10px;">
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <div class="spacer-vertical"></div>
+                <img src="end.png" alt="Description of the image" class="rounded-img; scaled-img" style="border-radius: 10px;">
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
